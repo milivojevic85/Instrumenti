@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Naslov</title>
+	<style>
+		body {
+			font-family: Arial, Helvetica, sans-sarif;
+		}
+		div {
+			box-sizing: border-box;
+		}
+		#container {
+			width: 100%;
+		}
+		#header {
+			height: 70px;
+			background-image: url("instr.jpg");
+			position: relative;
+		}
+		#naslov {
+			color: white;
+			text-shadow: 4px 4px 20px black;
+			text-size: 45px;
+			font-family: "arial black";
+			position: absolute;
+			top: -2%;
+			left: 10%;
+		}
+		.topnav {
+			border: 1px solid green;
+			overflow: hidden;
+		}
+		.topnav a {
+			float: left;
+			color: darkolivegreen;
+			text-align: center;
+			text-decoration: none;
+			font-size: 18px;
+			padding: 14px 16px;
+		}
+		.topnav a: hover {
+			background-color: palegreen;
+			color: darkgreen;
+		}
+		.topnav a: active {
+			background-color: mintcream;
+			color: green;
+		}
+		#content {
+			height: 500px;
+			width: 100%;
+			background-color: beige;
+			float: left;
+			padding: 10px;
+		}
+		#footer {
+			text-align: center;
+			background-color: gainsboro;
+			font-family: "arial black";
+			font-size: 15px;
+			clear: both;
+			padding: 10px;
+		}
+	</style>
+</head>
+<body>
+	<div id="container">
+		<div id="header">
+			<h1 id="naslov" style="margin-bottom:0;">Prodavnica instrumenata</h1>
+		</div>
+		<div class="topnav">
+			<a class="active" href="pocetna.php">POCETNA</a>
+			<a href="instrumenti.php">INSTRUMENTI</a>
+			<a href="odavanje.php">DODAVANJE</a>
+			<a href="brisanje.php">BRISANJE</a>
+			<a href="izvoz.php">IZVOZ</a>
+			<a href="kontakt.php">KONTAKT</a>
+			<a href="logout.php">LOG OUT</a>
+		</div>
+		<div id="content">
+		
+		</div>
+		<div id="footer">
+			Prodavnica instrumenata &copy; 2020.
+		</div>
+	</div>
+</body>
+</html>
+
+	
+
+
+
+
+
+
+
+
+
+
+
